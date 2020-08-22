@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:id="@+id/gridlayout2"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:orientation="horizontal"
+    tools:context=".LatihanGrid">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_gravity="left|top"
+        android:text="A"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_gravity="left|top"
+        android:text="B"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_gravity="left|top"
+        android:text="C"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_gravity="left|top"
+        android:text="D"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_gravity="left|top"
+        android:text="E"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_gravity="left|top"
+        android:text="F"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_gravity="left|top"
+        android:text="G"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_gravity="left|top"
+        android:text="H"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_gravity="left|top"
+        android:text="I"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="20dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_gravity="left|top"
+        android:text="J"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_gravity="left|top"
+        android:text="K"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_gravity="left|top"
+        android:text="L"
+        android:layout_below="@+id/text8"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15pt"/>
+
+
+</GridLayout>
